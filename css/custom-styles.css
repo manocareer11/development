@@ -1,0 +1,281 @@
+@font-face {
+   font-family: 'futural-Regular';
+   src: url('futural-webfont.ttf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+    font-family: 'futural-Regular';
+    background-color: black;
+    color: #fff;
+    letter-spacing: 2px;
+}
+html{
+  height: 100%;
+}
+.logo-content a {
+  cursor: pointer;
+}
+.logo-content {
+  position: relative;
+  text-align: center;
+}
+.selected-logo {
+  opacity: 0.25;
+}
+.selected-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;  
+}
+.hide-text{
+  display: none;
+}
+.selected-brand-text{
+  min-height: 20px;
+}
+.place select {
+  background-color: black;
+  color: #fff;
+  border-radius: 0;
+}
+.place select:focus {
+  border: 1px solid #fff;
+}
+.content-display-city {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.footer-content {
+  position: fixed;
+  text-align: center;
+  display: block;
+  bottom: 0;
+  background-color: red;
+  width: 100%;
+}
+.row + .row{
+	margin-top: 20px;
+}
+.header-container {
+  height: 100px;
+  z-index: 99;
+}
+.logo {
+  padding: 20px 0px 0px 0px;
+  width: 60%;
+ }
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 70px;
+}
+.content-heading {
+  font-size: 20px; 
+}
+.container{
+  background-color: black;
+  padding-bottom: 20px;
+}
+.brand-content {
+  letter-spacing: 0px;
+  padding: 20px;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+}
+.brand-heading{
+  font-weight: bold;
+}
+.locationimg 
+{
+  height: 30px;
+width: 20px;
+display: none;
+}
+.store-address{
+  min-height: 60px;
+}
+.brand-min-height{
+  min-height: 50px;
+}
+.select-logo{
+  background-size: cover;
+  width: 100%;
+}
+.dark-line{
+  border-top: 2px;
+  border-top-style: dotted;
+  color: #fff;
+}
+.scroll_store_details{
+  margin-top: 20px;
+}
+.clearfix {
+  clear: both;
+}
+.alert-text{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.hidden-sm{
+  display: none;
+}
+.down-arrow {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  right: 25;
+  bottom: 0;
+}
+.bootbox-alert .btn-primary {
+  background-color: black;
+  border-color: black;
+  border-radius: 0px;
+}
+
+.bootbox-alert .btn-primary:focus{
+  background-color: black;
+  border-color: black;
+  border-radius: 0px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+#map .gm-style-iw div div {
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-right: 3px;
+    text-transform: uppercase;
+}
+@keyframes MoveUpDown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 1000px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .store-address{
+    padding-left: 25px;
+  }
+  .brand-min-height{
+    padding-left: 20px;
+  }  
+  .content-display-city {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container{
+    padding: 2px;
+  }
+  .store-address{
+    min-height: 0px;
+    padding-left: 18px;
+    margin-bottom: 5px;
+  }
+  .brand-min-height{
+    min-height: 0px;
+    margin-bottom: 5px;
+  }
+  .brand-heading{
+    font-weight: normal;
+  }
+  .logo {
+    padding: 2px;
+    width: 100%;
+    background-size: cover;
+   }
+
+   .heading {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 12px 5px 0px 0px;
+    margin-top: 35px;
+  }
+  .content-heading {
+    text-align: center;
+    font-size: 12px;
+  }
+  .header-container {
+    height: 100px;
+  }
+  .select-logo{
+    padding: 5px;
+  }
+  .brand-content {
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-top: 1px solid #fff;
+  }
+  .row + .row{
+    margin-top: 0px;
+  }
+  .container{
+    overflow-x: hidden;
+    background-color: black;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+  }
+  .select-logo{
+    width: 85%;
+  }
+  .right-side-content {
+    text-align: center;
+  }
+  .place select {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .selected-brand-text{
+    margin-top: 20px;
+  }
+  .content-display-city {
+      font-size: 12px;
+      padding-bottom: 0px;
+  }
+  .hidden-sm{
+    display: block;
+  }
+
+  #map
+  {
+      display:none;
+  }
+
+  .locationimg 
+{
+  height: 30px;
+width: 20px;
+display: block;
+
+
+}
+}
