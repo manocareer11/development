@@ -165,7 +165,6 @@
 
             </div>
         </div>
-        <h1>Test for Github.</h1>
         <a id="bottom" name="bottom"></a>
         <div class="footer-content">Copyrights 2017. All Rights Reserved.</div>
         <script>
